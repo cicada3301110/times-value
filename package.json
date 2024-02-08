@@ -1,0 +1,24 @@
+{
+  "name": "times-value",
+  "version": "1.0.0",
+  "description": "live at the moments ...",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/style.css --watch"
+  },
+  "keywords": [
+    "life",
+    "live",
+    "time",
+    "value"
+  ],
+  "author": "whoami",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "sweetalert2": "^11.10.5"
+  }
+}
