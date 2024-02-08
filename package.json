@@ -14,9 +14,6 @@
   ],
   "author": "whoami",
   "license": "MIT",
-  "devDependencies": {
-    "tailwindcss": "^3.4.1"
-  },
   "dependencies": {
     "jquery": "^3.7.1",
     "sweetalert2": "^11.10.5"
