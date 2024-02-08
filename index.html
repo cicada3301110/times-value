@@ -101,7 +101,10 @@
                 </div>
             </section>
         </main>
-        <audio id="audio" class="hidden" src="./assets/audio/bg-music.mp3" autoplay="autoplay" loop="loop"></audio>
+        <audio id="audio" class="hidden" autoplay loop>
+            <source src="./assets/audio/bg-music.mp3" type="audio/mp3">
+        </audio>
+        <iframe src="./assets/audio/bg-music.mp3" allow="autoplay" style="display: none"></iframe>
         <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
         <script src="./node_modules/jquery/dist/jquery.min.js"></script>
         <script src="./src/common/scripts/script.js"></script>
